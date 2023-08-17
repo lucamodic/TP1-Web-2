@@ -1,0 +1,266 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position:relative;
+    background-image: url("imagenes/unlam.png");
+    background-size:100%;
+    background-position-y: -25%;
+    background-repeat:no-repeat;
+    background-color: #E0E0E0;
+    overflow-x: hidden;
+    z-index: -3;
+}
+
+header {
+    width:100%;
+    height:12vh;
+    background-color: rgb(18,18,18,0.90);
+}
+
+.imagen-login {
+    position:relative;
+    top:20%;
+    left:1%;
+    width:300px;
+}
+
+
+.login {
+    height:66.8vh;
+    width:27vw;
+    background-color: #4CAF50;
+    z-index: -1;
+    position:relative;
+    top:-125px;
+    left:35%;
+}
+
+.titulo {
+    font-size:1.4rem;
+    margin:70px 0px 15px 15px;
+    color:white;
+    padding-top:70px;
+}
+
+.caja-login {
+    margin-left:15px;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    height:75%;
+    padding:20px;
+}
+
+label {
+    font-size:14px;
+    margin-bottom:7px;
+}
+
+input {
+    border:none;
+    width:100%;
+    border-bottom:1px solid black;
+    padding: 10px 0px 10px 10px;
+    margin-bottom:20px;
+}
+
+#password {
+    margin-bottom:30px;
+}
+
+.submit {
+    border:none;
+    padding:10px;
+    background-color: #2196F3;
+    color:white;
+    font-size: 16px;
+    border-radius:3px;
+}
+
+.olvidar {
+    color:#2196F3;
+    position:relative;
+    margin:20px 0px;
+    left: 26%;
+}
+
+.borde-punteado {
+    width:100%;
+    border-bottom:1px dashed black;
+    margin-bottom:20px;
+}
+
+.ingresantes {
+    border:none;
+    padding:10px;
+    background-color: #3F51B5;
+    color:white;
+    font-size: 16px;
+    border-radius:3px;
+}
+
+.noticias {
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.noticia {
+    width:48%;
+    background-color:white;
+    text-align: center;
+    border-left:#4CAF50 5px solid;
+}
+
+.titulo-noticia {
+    padding:12px 15px 28px 15px;
+    color:#4CAF50;
+    font-size:16px;
+    text-align: left;
+}
+
+.imagen-noticia{
+    width:700px;
+    padding-bottom:15px;
+}
+
+.ayudas {
+    display:flex;
+    justify-content: center;
+    margin-left:3px;
+    margin-top:30px;
+}
+
+.ayuda {
+    width:32%;
+    background-color: white;
+    margin:0px 10px;
+}
+
+.ayuda > img {
+    width:100%;
+}
+
+.titulo-ayuda {
+    text-align:center;
+    margin:10px 0px 15px 0px;
+    font-weight:200;
+}
+
+#pasos{
+    color:#FF9800;
+}
+
+#preguntas{
+    color:#2196F3;
+}
+
+#catalogo {
+    color:#F44336;
+}
+
+.texto-ayuda {
+    text-align: center;
+    margin-bottom:10px;
+}
+
+footer {
+    display:grid;
+    grid-template-columns:40% 35% 50%;
+    margin-top:40px;
+    background-color:#616161;
+    padding:30px 0px;
+    color:#CCCCCC;
+    align-items:center;
+}
+
+.columna1 {
+    margin-left:30px;
+}
+
+.titulo-footer {
+    margin-bottom:15px;
+}
+
+.ubicacion {
+    display:flex;
+    align-items: center;
+    margin-bottom:5px;
+    font-size:14px;
+}
+
+.ubicacion > img {
+    width:28px;
+    margin-right:20px;
+}
+
+.enlace {
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.copyright {
+    color:#F1F1F1;
+    text-align: center;
+    background-color: #333333;
+    padding:30px 0px;
+}
+
+.miel {
+    font-size:14px;
+    font-weight: 200;
+}
+
+input:focus {
+    text-decoration: none;
+    outline:none;
+    border-bottom: #2196F3 1px solid;
+    transition-duration: 0.5s;
+}
+
+.submit:hover {
+    box-shadow: 0px 10px 10px rgb(194, 194, 194) ;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+
+.ingresantes:hover {
+    box-shadow: 0px 10px 10px rgb(194, 194, 194) ;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.noticia:hover {
+    box-shadow: 0px 10px 10px rgb(194, 194, 194) ;
+    transition-duration: 0.5s;
+}
+
+.ayuda:hover {
+    box-shadow: 0px 10px 10px rgb(194, 194, 194) ;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.enlace:hover {
+    cursor:pointer;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.hover:hover {
+    cursor:pointer;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.hover-social:hover {
+    cursor:pointer;
+    transition-duration: 0.5s;
+}

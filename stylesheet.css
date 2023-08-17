@@ -1,0 +1,336 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+}
+
+.flexbox {
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-menu{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header {
+    background-color: #121212;
+    height:7vh;
+}
+
+.logo {
+    margin:2px 10px 0px 14px;
+    width:16%;
+    height:87%;
+
+}
+
+.parte-header {
+    margin:0px 5px;
+}
+
+.user{
+    margin:0px 0px 5px 0px;
+}
+
+.user:hover {
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.user-izquierda {
+    text-align: end;
+    margin:0px 10px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size:13px;
+    margin: 2px 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-header {
+    color: #9ac89c;
+    font-size:12px;
+    font-weight: bold;
+    margin: 0px 3px;
+}
+
+.a-header:hover {
+    cursor:pointer;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.menu{
+    background-color:#59a15b;
+}
+
+.menu-principal {
+    height:100%;
+    line-height: 38px;
+    padding:0px 10px;
+}
+
+.nav {
+    padding:0px 5px;
+}
+
+.items-menu-izquierda {
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding:0px 13px;
+}
+
+.principal {
+    display:flex;
+    height:88vh;
+}
+
+.menu-izquierda {
+    height:100%;
+    width:15vw;
+    background-color: #262626;
+}
+
+.titulo-izquierda {
+    font-weight:100;
+    font-size: 1.8rem;
+    margin-bottom:10px;
+    margin-left:3px;
+    padding:20px 13px 1px 13px;
+}
+
+.ayuda {
+    padding:5px 13px 1px 13px;
+}
+
+.imagen-izquierda {
+    width:28px;
+    height:28px;
+    margin: 1px 11px 3px 0px;
+}
+
+.items-menu-izquierda > p {
+    font-size: 14;
+    font-weight: 100;
+
+}
+
+.ult-div {
+    margin-bottom:23px;
+}
+
+.menu-derecha {
+    background-color: #121212;
+    width:85vw;
+}
+
+.arriba-menu-principal {
+    padding:21px 25px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+
+.flex-solo {
+    display:flex;
+}
+
+.titulo-derecha {
+    font-weight:100;
+    font-size: 1.8rem;
+}
+
+.organizar {
+    background-color: #262626;
+    border: none;
+    border-radius: 5px;
+    padding:0px 15px;
+}
+
+.organizar:hover {
+    background-color: #363636;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.nombre-item {
+    font-weight:100;
+    font-size:12px;
+    position:relative;
+    top:-5px;
+}
+
+.item {
+    text-align: center;
+    padding-top:4px;
+    height:100%;
+    width:6vw;
+}
+
+.materia {
+    padding:0px 24px 0px 16px;
+    background-color: #262626;
+    height:11%;
+    width:96%;
+    border-radius: 3px;
+    margin-left: 26px;
+    margin-bottom: 15px;
+}
+
+.materia:hover{
+    background-color: #363636;
+    transition-duration: 0.5s;
+}
+
+.nombre {
+    font-size: 14px;
+    margin: 10px 0px 5px 0px;
+}
+
+.comision {
+    font-weight: 100;
+    font-size:12px;
+}
+
+.item:hover {
+    background-color: #59a15b;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.detalles {
+    margin:0px 13px 0px 90px;
+}
+
+.titulo-materia {
+    width:13vw;
+}
+
+.notas:hover{
+    background-color: #b1b366;
+    transition-duration: 0.5s;
+}
+
+.azul:hover {
+    background-color: #658bbb;
+    transition-duration: 0.5s;
+}
+
+.rojo:hover {
+    background-color: #cf443f;
+    transition-duration: 0.5s;
+}
+
+.turnos:hover {
+    background-color: #ae3fcf;
+    transition-duration: 0.5s;
+}
+
+.items-menu-izquierda:hover {
+    background-color: #363636;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.hover-nav:hover {
+    background-color: #4e8d50;
+    transition-duration: 0.5s;
+}
+
+
+.footer {
+    margin:50px 70px 0px 70px;
+    border-top: #363636 1px solid;
+    padding-top:20px;
+    color:#969696;
+    opacity:70%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+/* FORO */
+
+.foro:hover {
+    background-color: #363636;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.temas-abiertos {
+    margin-bottom:10px;
+}
+
+.boton-foro {
+    background-color:#59a15b;
+    border:none;
+}
+
+.boton-foro:hover {
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.foro {
+    height:13%;
+    width:96%;
+    border-radius: 3px;
+    margin-left: 26px;
+    margin-bottom: 15px;
+    border-bottom: #363636 1px solid;
+}
+
+.imagen-foro {
+    width:47px;
+    height:50px;
+    margin-left:10px;
+    margin-top:2px;
+}
+
+.arriba-menu-foro {
+    padding:21px 25px 13px 25px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.texto-general {
+    font-size:15px;
+    margin:10px 0px 0px 25px;
+}
+
+.texto-tema {
+    font-size:13px;
+    margin:7px 0px 0px 25px;
+}
+
+.texto-mensaje {
+    font-size:13px;
+    margin:7px 0px 0px 25px;
+    color:grey;
+}
